@@ -1,10 +1,27 @@
+IMPORTANT:
+
+The artifact evaluated for the paper is available on Zenodo:
+
+https://zenodo.org/records/19165231
+
+The Zenodo archive is the authoritative version used for artifact
+evaluation and contains the exact contents referenced in the paper.
+This repository may contain development versions.
+
 
 DIRNT is a hybrid non-termination checker that (1) uses bounded symbolic
 reasoning to generate concrete values for nondeterministic assignments to
 variables that can steer program execution towards states that recur, (2)
 substitutes these values into the program, and (3) executes the program to
-check for recurrence. What makes DIRNT unique as well as efficient is its
-systematic search for recurrence seeking tests that guide the symbolic
+check for recurrence. What makes DIRNT unique, as well as efficient, is its
+systematic search for recurrence-seeking tests that guide the symbolic
 reasoning engine.
 
-The zip file dirnt.zip unzips into another folder named "dirnt", which is self-contained. The README there of gives the complete details of the archive, including how to run the tool. This archive also has scripts and instrumented benchmakrs for you to run DIRNT on all SV-COMP 2025 non-termination benchmarks and all OOS benchmarks, by just invoking the scripts.
+
+The archive dirnt.zip extracts into a directory named "dirnt", which is
+self-contained. The README within that directory provides complete details
+about the artifact, including setup instructions and how to run the tool.
+
+The archive includes scripts and instrumented benchmarks that allow running
+DIRNT on all SV-COMP 2025 non-termination benchmarks and on all OSS
+benchmarks by directly invoking the provided scripts.
