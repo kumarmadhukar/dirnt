@@ -7,6 +7,7 @@ https://zenodo.org/records/19165231
 The Zenodo archive is the authoritative version used for artifact
 evaluation and contains the exact contents referenced in the paper.
 This repository may contain development versions.
+For artifact evaluation and reproducibility, please use the Zenodo archive.
 
 
 DIRNT is a hybrid non-termination checker that (1) uses bounded symbolic
